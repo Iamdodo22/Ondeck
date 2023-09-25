@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/output.css">
+    <title>Document</title>
+</head>
+<body class="bg-orange-50">
+
+   <header class="flex justify-between items-center px-20 max-lg:px-8 mt-10">
+
+     <span>
+        <img src="/Assets/Logo.svg" alt="">
+     </span>
+
+     <span class="max-md:overflow-hidden">
+        <ul class="relative flex gap-5 text-gray-400 max-md:flex-col max-md:fixed max-md:px-8 top-20 z-20 left-3 menu opacity-0">
+
+            <li class="   cursor-pointer flex flex-col ">
+               <h2 class="hover:text-gray-700 prod z-40">products</h2> 
+
+               <!-- this is the product drop-down text -->
+               <span class=" bg-white w-[20rem] p-5 absolute top-10 max-md:-top-10 -left-10 text-sm shadow-xl flex flex-col gap-4 opacity-0 modal max-md:left-5 z-30 max-md:pt-28">
+
+                  <img src="/Assets/Close.svg" alt="" class="ml-auto w-6 absolute top-11 right-5 hidden max-md:block close">
+                  <ul>
+                     <li class="flex gap-2">
+                        <img class="self-start" src="/Assets/Spense_Icon.svg" alt="">
+                        <div class="flex flex-col gap-1">
+                        <h2 class="font-semibold">Spense</h2>
+                        <p>Spense is a landing page for writers. Great for practicing absolute positioning and flex layout.</p>
+                     </div>
+                     </li>
+                  </ul>
+            
+                  <ul>
+                     <li class="flex gap-2">
+                        <img class="self-start" src="/Assets/Fiber_Icon.svg" alt="">
+                      <div class="flex flex-col gap-1">
+                        <h2 class="font-semibold">Fiber Landing Page</h2>
+                        <p>An active portfolio generator. Great to practice flex/grid layouts and absolute positioning.</p>
+                     </div>
+                     </li>
+                  </ul>
+            
+                  <ul>
+                     <li class="flex gap-2">
+                        <img class="self-start" src="/Assets/Gradie_Icon.svg" alt="">
+                     <div class="flex flex-col gap-1">
+                        <h2 class="font-semibold">Gradie Sign Up page</h2>
+                        <p>Gradie is a simple sign up page, great to practice centering layouts.</p>
+                     </li>
+                  </div>
+                  </ul>
+                  <div class="w-4 h-4 absolute bg-white -top-2 left-16 rotate-45 block max-md:hidden">&nbsp;</div>
+                  </span>
+            </li>
+            <li class="hover:text-gray-700 max-md:ml-10 -mt-5">Challenges</li>
+            <li class="hover:text-gray-700 ml-20 -mt-6">Resources</li>
+            <li class="hover:text-gray-700 ml-40 -mt-11 max-md:underline">Other Links</li>
+            
+        </ul>
+       
+     </span>
+
+     <span class="flex gap-5 items-center max-md:hidden">
+        <P class="text-gray-400 hover:text-gray-700">Sign in</P>
+        <button class="text-white bg-green-950 px-6 py-3 rounded-md">Try for free</button>
+     </span>
+
+   </header>
+
+   <!-- this is the menu button  -->
+   <img src="/Assets/Menu.svg" alt="" class="fixed hidden max-md:block top-12 right-8 z-10 menuBtn">
+
+   <!-- the first section  -->
+   <section class="flex px-20 max-lg:px-8 pt-32 gap-[5%] max-md:pt-20">
+
+      <div class="flex flex-col gap-5">
+        <h2 class="text-5xl  font-bold max-sm:text-4xl color-gold">Ondeck is your remote <span class="text-orange-300">conference calling tool</span></h2>
+        <p class="text-lg">Ondeck is a service that allows you to create beautiful, online and encrypted video calls for you and your remote team.</p>
+        <button class="self-start bg-green-950 text-white px-6 py-3 rounded-md">Try for free</button>
+        <span class="flex gap-5">
+            <p class="text-lg">5.0 Rating based on reviews from:</p>
+            <img src="/Assets/Capterra Logo.svg" alt="">
+            <img src="/Assets/AlternativeTo Logo.svg" alt="">
+            <img src="/Assets/Capterra Logo.svg" alt="">
+        </span>
+      </div>
+
+      <div class="w-2/5 border-green-500 max-md:hidden">
+        <img src="/Assets/Hero Image.png" alt="">
+      </div>
+   </section>
+
+   <footer class="px-20 max-lg:px-8 flex flex-col gap-5 items-center justify-center my-10">
+      <span>
+         <p class="text-lg">Trusted by 3+ million people at companies like</p>
+      </span>
+
+      <span class="flex gap-3 justify-center max-[900px]:grid max-[900px]:grid-cols-2">
+         <img src="/Assets/Netflix Logo.svg" alt="">
+         <img src="/Assets/Shopify Logo.svg" alt="">
+         <img src="/Assets/Spotify Logo.svg" alt="">
+         <img src="/Assets/Walmart Logo.svg" alt="">
+      </span>
+   </footer>
+      
+      <script src="script.js"></script>
+</body>
+</html>
